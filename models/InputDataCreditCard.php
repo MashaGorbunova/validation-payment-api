@@ -8,7 +8,6 @@ require_once "models/InputData.php";
  * Class InputDataCreditCard
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\models
  */
 class InputDataCreditCard extends InputData
 {

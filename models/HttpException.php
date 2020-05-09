@@ -5,7 +5,7 @@ namespace validation\models;
 /**
  * Class HttpException
  *
- * @package validation\models
+ * @author Maria Gorbunova <m.gorbunova@ukr.net>
  */
 class HttpException extends \Exception
 {

@@ -8,7 +8,6 @@ require_once "models/HttpException.php";
  * Class InputData
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\models
  */
 class InputData
 {

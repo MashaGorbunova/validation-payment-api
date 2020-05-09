@@ -6,7 +6,6 @@ namespace validation\models;
  * Class ValidationData
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\models
  */
 class ValidationParams
 {

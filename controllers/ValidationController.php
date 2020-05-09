@@ -17,7 +17,6 @@ require_once "models/ValidationManager.php";
  * Class ValidationController
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\controllers
  */
 class ValidationController
 {

@@ -8,7 +8,6 @@ require_once "models/InputData.php";
  * Class InputDataMobile
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\models
  */
 class InputDataMobile extends InputData
 {

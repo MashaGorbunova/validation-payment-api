@@ -9,7 +9,6 @@ require_once "models/HttpException.php";
  * Class ValidationManager
  *
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
- * @package validation\models
  */
 class ValidationManager
 {
