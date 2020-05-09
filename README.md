@@ -78,9 +78,11 @@ Authorization: Bearer Token
 }
 ```
 Example:
+```
 {
 "PhoneNumber": "+38(000)000-00-00"
 }
+```
 
 2) as xml format:
 ```
