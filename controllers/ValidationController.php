@@ -1,11 +1,11 @@
 <?php
 
-namespace validation\controllers;
+namespace app\controllers;
 
-use validation\models\HttpException;
-use validation\models\InputDataCreditCard;
-use validation\models\InputDataMobile;
-use validation\models\ValidationManager;
+use app\models\HttpException;
+use app\models\InputDataCreditCard;
+use app\models\InputDataMobile;
+use app\models\ValidationManager;
 
 require_once "models/ValidationParams.php";
 require_once "models/InputDataCreditCard.php";
@@ -16,6 +16,7 @@ require_once "models/ValidationManager.php";
 /**
  * Class ValidationController
  *
+ * @version 1.0
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
  */
 class ValidationController

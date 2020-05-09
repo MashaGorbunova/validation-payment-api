@@ -1,12 +1,13 @@
 <?php
 
-namespace validation\models;
+namespace app\models;
 
 require_once "models/InputData.php";
 
 /**
  * Class InputDataCreditCard
  *
+ * @version 1.0
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
  */
 class InputDataCreditCard extends InputData

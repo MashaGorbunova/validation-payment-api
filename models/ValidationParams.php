@@ -1,10 +1,11 @@
 <?php
 
-namespace validation\models;
+namespace app\models;
 
 /**
  * Class ValidationData
  *
+ * @version 1.0
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
  */
 class ValidationParams

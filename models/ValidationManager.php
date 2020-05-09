@@ -1,6 +1,6 @@
 <?php
 
-namespace validation\models;
+namespace app\models;
 
 require_once "models/ValidationParams.php";
 require_once "models/HttpException.php";
@@ -8,6 +8,7 @@ require_once "models/HttpException.php";
 /**
  * Class ValidationManager
  *
+ * @version 1.0
  * @author Maria Gorbunova <m.gorbunova@ukr.net>
  */
 class ValidationManager
