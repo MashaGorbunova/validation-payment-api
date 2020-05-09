@@ -85,6 +85,10 @@ class ValidationController
             header("HTTP/1.1 {$exception->getCode()} Error");
             print $exception->getMessage();
             exit($exception->getCode());
+        } catch (\Error $exception) {
+            header("HTTP/1.1 500 Error");
+            print $exception->getMessage();
+            exit(500);
         }
 
         return ['Valid' => true];

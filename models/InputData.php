@@ -39,6 +39,8 @@ class InputData
      * Set params from xml
      *
      * @param string $data
+     *
+     * @throws HttpException
      */
     protected function setParamsFromXml(string $data): void
     {
