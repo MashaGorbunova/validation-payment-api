@@ -46,6 +46,13 @@ class InputData
         xml_parse_into_struct($p, $data, $values, $index);
         xml_parser_free($p);
 
+        $inputParams = [];
+
+        foreach ($values as $key => $item) {
+            $inputParams[$item['tag']] = $item['value'];
+        }
+        $this->checkRequiredParams($inputParams);
+
         foreach ($values as $key => $item) {
             $classVar = strtolower($item['tag']);
             $this->$classVar = $item['value'];
