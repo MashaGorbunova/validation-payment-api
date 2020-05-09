@@ -4,15 +4,15 @@ Simple API for validation credit card and mobile phone as example on clearly php
 # Endpoins:
 
 ## GET \validation\token - get secure token
-###response: {"SecureToken":"9ce04ece68b0c7e3203f07955808c35a"}, status code 200 OK
+######response: {"SecureToken":"9ce04ece68b0c7e3203f07955808c35a"}, status code 200 OK
 
-###Errors:
+######Errors:
 status code: 404, message: "Page not found."
 
 ## POST \validation\credit-card
 Authorization: Bearer Token
 
-###request body:
+######request body:
 
 1) as JSON format
 ```
@@ -43,9 +43,9 @@ Example:
 </body>
 ```
 
-###response: {"Valid":true}, status code 200 OK
+######response: {"Valid":true}, status code 200 OK
 
-###Errors:
+######Errors:
 status code: 400, message: "Parameter Creditcardnumber is required."
 status code: 400, message: "Parameter Expirationdate is required."
 status code: 400, message: "Parameter CVV2 is required."
@@ -61,7 +61,7 @@ status code: 404, message: "Page not found."
 ## POST \validation\mobile
 Authorization: Bearer Token
 
-###request body:
+######request body:
 
 1) as JSON format
 ```
@@ -81,9 +81,9 @@ Example:
 </body>
 ```
 
-###response: {"Valid":true}, status code 200 OK
+######response: {"Valid":true}, status code 200 OK
 
-###Errors:
+######Errors:
 status code: 400, message: "Parameter Phonenumber is required."
 status code: 400, message: "Parameter PhoneNumber is not valid."
 
